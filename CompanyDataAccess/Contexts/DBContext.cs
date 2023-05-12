@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ConsoleProject.Entities;
 
-namespace CompanyDataAccess.Contexts
+namespace CompanyDataAccess.Contexts;
+
+public static class DBContext
 {
-    internal class DBContext
-    {
-    }
+    public static List<Employee> employees { get; set; } = new();
+    public static List<Department> departments { get; set; } = new();
+    public static List<Company> companies { get; set; } = new();
 }

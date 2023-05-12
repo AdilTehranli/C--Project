@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ConsoleProject.Interfaces;
 
-namespace CompanyDataAccess.Interfaces
+namespace CompanyDataAccess.Interfaces;
+
+public interface IRepository<T> where T : IEntity
 {
-    internal class IRepository
-    {
-    }
+    void Add(T entity);
+    void Update(T entity);
+    T Get(int id);
+    List<T> GetAll();
 }

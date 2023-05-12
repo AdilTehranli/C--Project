@@ -1,12 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CompanyDataAccess.Interfaces;
+using ConsoleProject.Entities;
 
-namespace CompanyDataAccess.Implementations
+namespace CompanyDataAccess.Implementations;
+
+public class DepartmentRepository : IRepository<Department>
 {
-    internal class DepartmentRepository
+    public void Add(Department entity)
     {
+        throw new NotImplementedException();
+    }
+
+    public Department Get(int id)
+    {
+        throw new NotImplementedException();
+    }
+
+    public List<Department> GetAll()
+    {
+        throw new NotImplementedException();
+    }
+
+    public void Update(Department entity)
+    {
+        throw new NotImplementedException();
     }
 }

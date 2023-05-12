@@ -1,12 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CompanyDataAccess.Interfaces;
+using ConsoleProject.Entities;
 
-namespace CompanyDataAccess.Implementations
+namespace CompanyDataAccess.Implementations;
+
+public class EmployeeRepository : IRepository<Employee>
 {
-    internal class EmployeeRepository
+    public void Add(Employee entity)
     {
+        throw new NotImplementedException();
+    }
+
+    public Employee Get(int id)
+    {
+        throw new NotImplementedException();
+    }
+
+    public List<Employee> GetAll()
+    {
+        throw new NotImplementedException();
+    }
+
+    public void Update(Employee entity)
+    {
+        throw new NotImplementedException();
     }
 }
