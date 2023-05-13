@@ -50,11 +50,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\ConsoleProject\\Company.Business\\Company.Business.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\C--Project\\Company.Business\\Company.Business.csproj",
       "projectName": "Company.Business",
-      "projectPath": "C:\\Users\\User\\source\\repos\\ConsoleProject\\Company.Business\\Company.Business.csproj",
+      "projectPath": "C:\\Users\\User\\Source\\Repos\\C--Project\\Company.Business\\Company.Business.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\ConsoleProject\\Company.Business\\obj\\",
+      "outputPath": "C:\\Users\\User\\Source\\Repos\\C--Project\\Company.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -71,8 +71,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\ConsoleProject\\CompanyDataAccess\\CompanyDataAccess.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\ConsoleProject\\CompanyDataAccess\\CompanyDataAccess.csproj"
+            "C:\\Users\\User\\Source\\Repos\\C--Project\\CompanyDataAccess\\CompanyDataAccess.csproj": {
+              "projectPath": "C:\\Users\\User\\Source\\Repos\\C--Project\\CompanyDataAccess\\CompanyDataAccess.csproj"
             }
           }
         }

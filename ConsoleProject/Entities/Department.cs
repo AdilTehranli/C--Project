@@ -15,7 +15,7 @@ public class Department:IEntity
         _id++;
 
     }
-    public Department(string name):this()
+    public Department(string name, int employeeLimit, int companyId) :this()
     {
         Name = name;
     }
