@@ -3,5 +3,5 @@
 public interface IDepartmentService
 {
     void Created(string name);
-    void Delete(string name);
+    void Delete(string name);   
 }
