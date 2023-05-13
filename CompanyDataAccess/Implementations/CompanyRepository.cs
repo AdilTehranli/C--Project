@@ -19,6 +19,11 @@ public class CompanyRepository : IRepository<Company>
     {
         DBContext.companies.Add(entity);
     }
+    public Company GetByName(string name)
+    {
+        return DBContext.companies.Find(cp => cp.Name == name);
+    }
+
 
     public List<Company> GetAll()
     {
