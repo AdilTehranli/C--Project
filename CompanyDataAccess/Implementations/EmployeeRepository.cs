@@ -28,4 +28,13 @@ public class EmployeeRepository : IRepository<Employee>
         return DBContext.employees;
     }
 
+    public Employee GetByName(string name)
+    {
+        return DBContext.employees.Find(cp => cp.Name == name);
+    }
+
+    public List<Employee> GetAllByName(string name)
+    {
+        return DBContext.employees.FindAll(cp => cp.Name == name);
+    }
 }

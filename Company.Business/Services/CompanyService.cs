@@ -4,6 +4,7 @@ using Company.Business.Interfaces;
 namespace Company.Business.Services;
 
 using Company.Business.Exceptions;
+using Company.Business.Helpers;
 using CompanyDataAccess.Implementations;
 using ConsoleProject.Entities;
 
@@ -19,8 +20,15 @@ public class CompanyService : ICompanyService
         var exist=CompanyRepository.GetByName(name);
         if (exist != null) 
              {
-            throw new AlreadyExistException("");
+            throw new AlreadyExistException(Helper.errors["AlreadyExistException"]);
         }
+        string word=name.Trim();
+        if (word.Length <= 2)
+        {
+            throw new SizeException(Helper.errors["SizeException"]);
+        }
+        Company company = new Company(word);
+        CompanyRepository.Add(company);
     }
 
     public void Delete(string name)

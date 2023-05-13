@@ -8,4 +8,8 @@ public interface IRepository<T> where T : IEntity
     T Get(int id);
     void Add(T entity);
     List<T> GetAll();
+    T GetByName(string name);
+    List<T> GetAllByName(string name);
+
 }
+

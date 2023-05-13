@@ -29,4 +29,9 @@ public class CompanyRepository : IRepository<Company>
     {
         return DBContext.companies;
     }
+
+    public List<Company> GetAllByName(string name)
+    {
+        return DBContext.companies.FindAll(cp => cp.Name == name);
+    }
 }
