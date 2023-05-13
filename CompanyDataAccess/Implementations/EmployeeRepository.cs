@@ -6,10 +6,6 @@ namespace CompanyDataAccess.Implementations;
 
 public class EmployeeRepository : IRepository<Employee>
 {
-    public void Add(Employee entity)
-    {
-        DBContext.employees.Add(entity);
-    }
     public void Update(Employee entity)
     {
        Employee employee=  DBContext.employees.Find(em => em.EmployeeId == entity.EmployeeId);
@@ -21,6 +17,10 @@ public class EmployeeRepository : IRepository<Employee>
     public Employee Get(int id)
     {
         return DBContext.employees.Find(em => em.EmployeeId == id);
+    }
+    public void Add(Employee entity)
+    {
+        DBContext.employees.Add(entity);
     }
 
     public List<Employee> GetAll()

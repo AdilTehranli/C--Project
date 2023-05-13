@@ -23,7 +23,7 @@ public class Employee:IEntity
     }
     public override string ToString()
     {
-        return $"Name:{Name} Surname:{Surname} Id:{EmployeeId} ";
+        return $"Name:{Name} Surname:{Surname} Id:{EmployeeId}" ;
     }
-
+    
 }
