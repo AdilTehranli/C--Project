@@ -1,6 +1,7 @@
 ﻿using CompanyDataAccess.Contexts;
 using CompanyDataAccess.Interfaces;
 using ConsoleProject.Entities;
+using System.Xml.Linq;
 
 namespace CompanyDataAccess.Implementations;
 
@@ -36,5 +37,9 @@ public class EmployeeRepository : IRepository<Employee>
     public List<Employee> GetAllByName(string name)
     {
         return DBContext.employees.FindAll(cp => cp.Name == name);
+    }
+    public List<Employee> GetEmployeeById(int id)
+    {
+        return DBContext.employees.FindAll(cp => cp.EmployeeId == id);
     }
 }

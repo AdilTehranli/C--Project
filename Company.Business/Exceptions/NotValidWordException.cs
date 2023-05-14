@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Company.Business.Exceptions;
 
-namespace Company.Business.Exceptions
+public class NotValidWordException:Exception
 {
-    internal class NotValidWordException
+    public NotValidWordException(string message):base(message)
     {
+        
     }
 }
