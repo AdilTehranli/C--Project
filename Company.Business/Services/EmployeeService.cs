@@ -16,23 +16,19 @@ public class EmployeeService : IEmployeeService
         employeerepository = new();
         companyRepository = new();
     }
-    public void Create(string employeeName, string name, int capacity)
+    public void Create( EmployeeCreateDto employeeCreateDto)
     {
-        var name=employeeCreateDto.name.Trim();
-        if (string.IsNullOrEmpty(name))
+        var name= employeeCreateDto.name.Trim();
+        if (string.IsNullOrWhiteSpace(name))
         {
-            throw new SizeException(Helper.errors["SizeException"]);
+            throw new NullReferenceException();
         }
-        if(employeerepository.GetByName(name) == null)
+        if(!name.IsOnlyLetters())
         {
             throw new AlreadyExistException(Helper.errors["AlreadyExistException"]);
         }
     }
 
-    public void Create(EmployeeCreateDto employeeCreateDto)
-    {
-        throw new NotImplementedException();
-    }
 
     public void Delete(int id)
     {
