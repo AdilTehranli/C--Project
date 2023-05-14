@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Company.Business.Exceptions;
 
-namespace Company.Business.Exceptions
+public class IsNotEmptyException:Exception
 {
-    internal class IsNotEmptyException
-    {
-    }
+    public IsNotEmptyException(string message) : base(message) { }
 }

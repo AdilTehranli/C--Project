@@ -5,7 +5,6 @@ public interface ICompanyService
 {
     void Create(string name);
     void Delete(string name);
-    void GetByName(string name);
-    void GetById(int id);
-   List<Company>GetAll();
+    Company GetById(int id);
+    List<Company> GetAll();
 }

@@ -10,25 +10,25 @@ using ConsoleProject.Entities;
 
 public class CompanyService : ICompanyService
 {
-    public CompanyRepository CompanyRepository { get;}
+    public CompanyRepository companyrepository { get; }
     public CompanyService()
     {
-        CompanyRepository = new CompanyRepository();
+        companyrepository = new CompanyRepository();
     }
-    public void Create(string name)
+    public void Create(string companyName)
     {
-        var exist=CompanyRepository.GetByName(name);
-        if (exist != null) 
-             {
+        var exist = companyrepository.GetByName(companyName);
+        if (exist != null)
+        {
             throw new AlreadyExistException(Helper.errors["AlreadyExistException"]);
         }
-        string word=name.Trim();
-        if (word.Length <= 2)
+        string name = companyName.Trim();
+        if (name.Length < 2)
         {
             throw new SizeException(Helper.errors["SizeException"]);
         }
-        Company company = new Company(word);
-        CompanyRepository.Add(company);
+        Company company = new Company(companyName);
+        companyrepository.Add(company);
     }
 
     public void Delete(string name)
@@ -38,15 +38,10 @@ public class CompanyService : ICompanyService
 
     public List<Company> GetAll()
     {
-        throw new NotImplementedException();
+        return companyrepository.GetAll();
     }
 
-    public void GetById(int id)
-    {
-        throw new NotImplementedException();
-    }
-
-    public void GetByName(string name)
+    public Company GetById(int id)
     {
         throw new NotImplementedException();
     }

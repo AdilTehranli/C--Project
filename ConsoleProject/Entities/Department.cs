@@ -18,6 +18,8 @@ public class Department:IEntity
     public Department(string name, int employeeLimit, int companyId) :this()
     {
         Name = name;
+        EmployeeLimit = employeeLimit;
+        CompanyId = companyId;
     }
     public override string ToString()
     {
