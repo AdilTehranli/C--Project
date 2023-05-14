@@ -5,6 +5,7 @@ namespace Company.Business.Services;
 
 using Company.Business.Exceptions;
 using Company.Business.Helpers;
+using CompanyDataAccess.Contexts;
 using CompanyDataAccess.Implementations;
 using ConsoleProject.Entities;
 
@@ -16,6 +17,7 @@ public class CompanyService : ICompanyService
         companyrepository = new CompanyRepository();
     }
     public void Create(string companyName)
+
     {
         var exist = companyrepository.GetByName(companyName);
         if (exist != null)
@@ -33,16 +35,25 @@ public class CompanyService : ICompanyService
 
     public void Delete(string name)
     {
-        throw new NotImplementedException();
+        DBContext.companies.Find(cp=>cp.Name == name);
+        throw new NotFoundException("such a company does not not exist");
     }
 
     public List<Company> GetAll()
     {
-        return companyrepository.GetAll();
+        return DBContext.companies();
     }
 
     public Company GetById(int id)
     {
-        throw new NotImplementedException();
+        var count = DBContext.companies.Count();
+        if(count>id)
+        {
+            throw new NotFoundException("bo such id");
+        }
+        else
+        {
+            return DBContext.companies.Find(cmp => cmp.CompanyId == id);
+        }
     }
 }

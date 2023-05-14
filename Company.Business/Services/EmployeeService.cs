@@ -11,7 +11,7 @@ namespace Company.Business.Services;
 public class EmployeeService : IEmployeeService
 {
     public EmployeeRepository employeerepository { get;}
-    public CompanyRepository companyRepository { get;}
+    public CompanyRepository companyRepository { get; }
     public DepartmentRepository departmentRepository { get;}
     public EmployeeService()
     {
@@ -50,8 +50,6 @@ public class EmployeeService : IEmployeeService
         Employee employee = new Employee(name,surname,department.DepartmentId);
         employeerepository.Add(employee);
     }
-
-
     public void Delete(int id)
     {
         throw new NotImplementedException();

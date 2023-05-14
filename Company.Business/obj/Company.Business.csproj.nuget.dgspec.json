@@ -87,8 +87,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\ConsoleProject\\ConsoleProject.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\ConsoleProject\\ConsoleProject.csproj"
+              "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\CompanyProject.Core\\CompanyProject.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\CompanyProject.Core\\CompanyProject.Core.csproj"
               }
             }
           }
@@ -122,14 +122,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\ConsoleProject\\ConsoleProject.csproj": {
+    "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\CompanyProject.Core\\CompanyProject.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\ConsoleProject\\ConsoleProject.csproj",
-        "projectName": "ConsoleProject",
-        "projectPath": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\ConsoleProject\\ConsoleProject.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\CompanyProject.Core\\CompanyProject.Core.csproj",
+        "projectName": "CompanyProject.Core",
+        "projectPath": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\CompanyProject.Core\\CompanyProject.Core.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\ConsoleProject\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\CompanyProject.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
