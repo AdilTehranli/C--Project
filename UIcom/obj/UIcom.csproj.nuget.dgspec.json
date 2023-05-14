@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\UI\\UI.csproj": {}
+    "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\UIcom\\UIcom.csproj": {}
   },
   "projects": {
     "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\Company.Business\\Company.Business.csproj": {
@@ -177,14 +177,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\UI\\UI.csproj": {
+    "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\UIcom\\UIcom.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\UI\\UI.csproj",
-        "projectName": "UI",
-        "projectPath": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\UI\\UI.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\UIcom\\UIcom.csproj",
+        "projectName": "UIcom",
+        "projectPath": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\UIcom\\UIcom.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\UI\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\UIcom\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
