@@ -64,41 +64,19 @@ public class DepartmentService:IDepartmentService
     }
     public Department GetById(int id)
     {
-        var count = DBContext.departments.Count();
-        if (count<id) 
-        { 
-            throw new NotFoundException("This id was not found");
-        }
-        else
-        {
         return DBContext.departments.Find(dep => dep.DepartmentId == id);
-
-        }
     }
     public Department GetByName(string departmentName)
     {
-        var department=DBContext.departments.Find(de=>de.Name == departmentName);
-        if(department != null)
-        {
-            throw new NotFoundException ("no such name");
-        }
-        else
-        {
-
-          return DBContext.departments.Find(dep => dep.Name == departmentName);
-        }
+        return DBContext.departments.Find(dep => dep.Name == departmentName);
     }
     public void Update(int id, int employeeLimit)
     {
-        var count=DBContext.departments.Count();
-        if(count<employeeLimit)
+        var department = DBContext.departments.Find(dep => dep.DepartmentId == id);
+        if (department != null)
         {
-            throw new NotFoundException("You cannat exceed the capacity");
 
-        }
-        else
-        {
-            DBContext.departments.Find(dpe => dpe.DepartmentId == id && dpe.EmployeeLimit == employeeLimit);
+
         }
     }
 }

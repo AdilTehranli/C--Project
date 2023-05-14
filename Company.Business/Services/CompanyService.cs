@@ -41,7 +41,7 @@ public class CompanyService : ICompanyService
 
     public List<Company> GetAll()
     {
-        return DBContext.companies();
+        return DBContext.companies;
     }
 
     public Company GetById(int id)
