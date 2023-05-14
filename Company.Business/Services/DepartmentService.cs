@@ -33,10 +33,10 @@ public class DepartmentService:IDepartmentService
         {
             throw new NotFoundException($"{Name} - doesn't exist");
         }
-        if (employeeLimit >= 2)
+        if (employeeLimit <= 2)
         {
             throw new SizeException(Helper.errors["SizeException"]);
-        }
+        }   
         Department department = new Department(departmentName, employeeLimit, companyName.CompanyId);
         departmentRepository.Add(department);
     }

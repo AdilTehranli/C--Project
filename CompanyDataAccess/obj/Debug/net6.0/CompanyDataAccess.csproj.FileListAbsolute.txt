@@ -1,0 +1,5 @@
+C:\Users\User\Desktop\AHSH\C--Project\CompanyDataAccess\obj\Debug\net6.0\CompanyDataAccess.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\AHSH\C--Project\CompanyDataAccess\obj\Debug\net6.0\CompanyDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\AHSH\C--Project\CompanyDataAccess\obj\Debug\net6.0\CompanyDataAccess.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\AHSH\C--Project\CompanyDataAccess\obj\Debug\net6.0\CompanyDataAccess.AssemblyInfo.cs
+C:\Users\User\Desktop\AHSH\C--Project\CompanyDataAccess\obj\Debug\net6.0\CompanyDataAccess.csproj.CoreCompileInputs.cache
