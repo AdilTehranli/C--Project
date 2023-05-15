@@ -64,8 +64,7 @@ public class EmployeeService : IEmployeeService
     }
     public void Update(int id, EmployeeCreateDto employeeCreateDto)
     {
-        var employee = employeeCreateDto.salary;
-        var employee1 = employeeCreateDto.departmentName;
+        var employee = DBContext.employees.Find(em=>em.EmployeeId == id);
         
     }
 
@@ -87,5 +86,5 @@ public class EmployeeService : IEmployeeService
     public Employee GetEmployeeById(int id)
     {
         return DBContext.employees.Find(ep => ep.EmployeeId == id);
-    }
+    }   
 }
