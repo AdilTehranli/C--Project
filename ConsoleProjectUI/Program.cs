@@ -1,13 +1,13 @@
 ﻿using Company.Business.Services;
 
 //EmployeeRepository employeeRepository = new EmployeeRepository();
-EmployeeService employeeService = new EmployeeService();
-DepartmentService departmentService = new DepartmentService();
-departmentService.Create("register", "adil", 3);
-departmentService.Create("asdf", "aggil", 2);
+//EmployeeService employeeService = new EmployeeService();
+//DepartmentService /*departmentService*/ = new DepartmentService();
+//departmentService.Create("register", "adil", 3);
+//departmentService.Create("asdf", "aggil", 2);
 
 
-CompanyService companyService = new CompanyService();
+//CompanyService companyService = new CompanyService();
 //companyService.Create();
 
 //departmentService.Create("mm","Adil",10);
