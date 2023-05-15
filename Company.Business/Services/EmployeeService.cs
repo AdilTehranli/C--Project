@@ -51,37 +51,42 @@ public class EmployeeService : IEmployeeService
         employeerepository.Add(employee);
     }
     public void Delete(int id)
-    { 
-    var employee = DBContext.employees.Find(ep=>ep.EmployeeId==id);
-        if (employee != null)
+    {
+        var employee = DBContext.employees.Find(ep => ep.EmployeeId == id);
+        if (employee == null)
         {
-            
+            throw new NotFoundException(Helper.errors["NotFoundException"]);
+        }
+        else
+        {
+            DBContext.employees.Remove(employee);
         }
     }
-
     public void Update(int id, EmployeeCreateDto employeeCreateDto)
     {
-        throw new NotImplementedException();
+        var employee = employeeCreateDto.salary;
+        var employee1 = employeeCreateDto.departmentName;
+        
     }
 
-    public List<Employee> GetAll(int skip, int take)
+    public List<Employee> GetAll()
     {
-        throw new NotImplementedException();
+        return DBContext.employees;
     }
 
     public List<Employee> GetEmployeeByDepartmentName(int id)
     {
-        throw new NotImplementedException();
+        return DBContext.employees.FindAll(ep => ep.EmployeeId == id);
     }
 
-    public List<Employee> GetEmplyeeByName(string name)
+    public List<Employee> GetEmployeeByName(string name)
     {
-        throw new NotImplementedException();
+       return DBContext.employees.FindAll(ep => ep.Name==name);
     }
-
+        
     public Employee GetEmployeeById(int id)
     {
-        throw new NotImplementedException();
+        return DBContext.employees.Find(ep => ep.EmployeeId == id);
     }
 
 

@@ -73,10 +73,10 @@ public class DepartmentService:IDepartmentService
     }
     public void Update(int id, int employeeLimit)
     {
-        var department = DBContext.departments.Find(dep => dep.DepartmentId == id);
+        var department = DBContext.departments.Find(dep => dep.EmployeeLimit==employeeLimit);
         if (department != null)
         {
-            department.EmployeeLimit = employeeLimit;
+            employeeLimit = department.EmployeeLimit;
         }
     }
 }

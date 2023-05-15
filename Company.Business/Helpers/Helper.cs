@@ -7,6 +7,7 @@ public static class Helper
       {"AlreadyExistException","This object already exist" },
       {"SizeException","Length doesn't " },
       {"NotValidWordException","Entered word is not valid. Use only letters" },
-      {"DepartmentNotEnoughException","Department is already full"}
+      {"DepartmentNotEnoughException","Department is already full"},
+      {"NotFoundException","word not found" }
   };
 }

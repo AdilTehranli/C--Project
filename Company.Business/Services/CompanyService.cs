@@ -35,8 +35,15 @@ public class CompanyService : ICompanyService
 
     public void Delete(string name)
     {
-        DBContext.companies.Find(cp=>cp.Name == name);
-        throw new NotFoundException("such a company does not not exist");
+       var company= DBContext.companies.Find(cp=>cp.Name == name);
+        if (company == null)
+        {
+            throw new NotFoundException(Helper.errors["NotFoundException"]);
+        }
+        else
+        { 
+            DBContext.companies.Remove(company);
+        }
     }
 
     public List<Company> GetAll()
