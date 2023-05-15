@@ -18,6 +18,17 @@ public class DepartmentService:IDepartmentService
         departmentRepository = new DepartmentRepository();
         companyRepository = new CompanyRepository();
     }
+    public void AddEmployee(Employee employee)
+    {
+        if (employee == null)
+        {
+            throw new NotFoundException("There is no such user");
+        }
+        else
+        {
+            employeeRepository.Add(employee);
+        }
+    }
     public void Create(string departmentName, string name, int employeeLimit)
     {
         var name1 = departmentName.Trim();
@@ -42,6 +53,7 @@ public class DepartmentService:IDepartmentService
         departmentRepository.Add(department);
     }
 
+
     public void Delete(string departmentName)
     {
         var department = DBContext.departments.Find(dep => dep.Name == departmentName);
@@ -65,7 +77,15 @@ public class DepartmentService:IDepartmentService
     }
     public Department GetById(int id)
     {
-        return DBContext.departments.Find(dep => dep.DepartmentId == id);
+        var count=DBContext.departments.Count();
+        if (count < id) 
+        {
+            throw new NotFoundException("id not available");
+        }
+        else
+        {
+            return DBContext.departments.Find(dep => dep.DepartmentId == id);
+        }
     }
     public Department GetByName(string departmentName)
     {

@@ -16,7 +16,8 @@
       },
       "Company.Business/1.0.0": {
         "dependencies": {
-          "CompanyDataAccess": "1.0.0"
+          "CompanyDataAccess": "1.0.0",
+          "CompanyProject.Core": "1.0.0"
         },
         "runtime": {
           "Company.Business.dll": {}
