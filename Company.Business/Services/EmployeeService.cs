@@ -2,6 +2,7 @@
 using Company.Business.Exceptions;
 using Company.Business.Helpers;
 using Company.Business.Interfaces;
+using CompanyDataAccess.Contexts;
 using CompanyDataAccess.Implementations;
 using ConsoleProject.Entities;
 using System.Xml.Linq;
@@ -51,8 +52,12 @@ public class EmployeeService : IEmployeeService
         employeerepository.Add(employee);
     }
     public void Delete(int id)
-    {
-        throw new NotImplementedException();
+    { 
+    var employee = DBContext.employees.Find(ep=>ep.EmployeeId==id);
+        if (employee != null)
+        {
+
+        }
     }
 
     public void Update(int id, EmployeeCreateDto employeeCreateDto)

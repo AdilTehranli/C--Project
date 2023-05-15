@@ -10,3 +10,15 @@ C:\Users\User\Desktop\AHSH\C--Project\CompanyProject.Core\obj\Debug\net6.0\Compa
 C:\Users\User\Desktop\AHSH\C--Project\CompanyProject.Core\obj\Debug\net6.0\refint\CompanyProject.Core.dll
 C:\Users\User\Desktop\AHSH\C--Project\CompanyProject.Core\obj\Debug\net6.0\CompanyProject.Core.pdb
 C:\Users\User\Desktop\AHSH\C--Project\CompanyProject.Core\obj\Debug\net6.0\ref\CompanyProject.Core.dll
+C:\Users\adiljt\Desktop\dwds\C--Project\CompanyProject.Core\bin\Debug\net6.0\CompanyProject.Core.deps.json
+C:\Users\adiljt\Desktop\dwds\C--Project\CompanyProject.Core\bin\Debug\net6.0\CompanyProject.Core.dll
+C:\Users\adiljt\Desktop\dwds\C--Project\CompanyProject.Core\bin\Debug\net6.0\CompanyProject.Core.pdb
+C:\Users\adiljt\Desktop\dwds\C--Project\CompanyProject.Core\obj\Debug\net6.0\CompanyProject.Core.csproj.AssemblyReference.cache
+C:\Users\adiljt\Desktop\dwds\C--Project\CompanyProject.Core\obj\Debug\net6.0\CompanyProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adiljt\Desktop\dwds\C--Project\CompanyProject.Core\obj\Debug\net6.0\CompanyProject.Core.AssemblyInfoInputs.cache
+C:\Users\adiljt\Desktop\dwds\C--Project\CompanyProject.Core\obj\Debug\net6.0\CompanyProject.Core.AssemblyInfo.cs
+C:\Users\adiljt\Desktop\dwds\C--Project\CompanyProject.Core\obj\Debug\net6.0\CompanyProject.Core.csproj.CoreCompileInputs.cache
+C:\Users\adiljt\Desktop\dwds\C--Project\CompanyProject.Core\obj\Debug\net6.0\CompanyProject.Core.dll
+C:\Users\adiljt\Desktop\dwds\C--Project\CompanyProject.Core\obj\Debug\net6.0\refint\CompanyProject.Core.dll
+C:\Users\adiljt\Desktop\dwds\C--Project\CompanyProject.Core\obj\Debug\net6.0\CompanyProject.Core.pdb
+C:\Users\adiljt\Desktop\dwds\C--Project\CompanyProject.Core\obj\Debug\net6.0\ref\CompanyProject.Core.dll

@@ -1,21 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\ConsoleProjectUI\\ConsoleProjectUI.csproj": {}
+    "C:\\Users\\adiljt\\Desktop\\dwds\\C--Project\\ConsoleProjectUI\\ConsoleProjectUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\Company.Business\\Company.Business.csproj": {
+    "C:\\Users\\adiljt\\Desktop\\dwds\\C--Project\\Company.Business\\Company.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\Company.Business\\Company.Business.csproj",
+        "projectUniqueName": "C:\\Users\\adiljt\\Desktop\\dwds\\C--Project\\Company.Business\\Company.Business.csproj",
         "projectName": "Company.Business",
-        "projectPath": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\Company.Business\\Company.Business.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\Company.Business\\obj\\",
+        "projectPath": "C:\\Users\\adiljt\\Desktop\\dwds\\C--Project\\Company.Business\\Company.Business.csproj",
+        "packagesPath": "C:\\Users\\adiljt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adiljt\\Desktop\\dwds\\C--Project\\Company.Business\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\adiljt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -28,8 +34,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\CompanyDataAccess\\CompanyDataAccess.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\CompanyDataAccess\\CompanyDataAccess.csproj"
+              "C:\\Users\\adiljt\\Desktop\\dwds\\C--Project\\CompanyDataAccess\\CompanyDataAccess.csproj": {
+                "projectPath": "C:\\Users\\adiljt\\Desktop\\dwds\\C--Project\\CompanyDataAccess\\CompanyDataAccess.csproj"
               }
             }
           }
@@ -59,22 +65,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\CompanyDataAccess\\CompanyDataAccess.csproj": {
+    "C:\\Users\\adiljt\\Desktop\\dwds\\C--Project\\CompanyDataAccess\\CompanyDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\CompanyDataAccess\\CompanyDataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\adiljt\\Desktop\\dwds\\C--Project\\CompanyDataAccess\\CompanyDataAccess.csproj",
         "projectName": "CompanyDataAccess",
-        "projectPath": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\CompanyDataAccess\\CompanyDataAccess.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\CompanyDataAccess\\obj\\",
+        "projectPath": "C:\\Users\\adiljt\\Desktop\\dwds\\C--Project\\CompanyDataAccess\\CompanyDataAccess.csproj",
+        "packagesPath": "C:\\Users\\adiljt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adiljt\\Desktop\\dwds\\C--Project\\CompanyDataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\adiljt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -87,8 +99,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\CompanyProject.Core\\CompanyProject.Core.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\CompanyProject.Core\\CompanyProject.Core.csproj"
+              "C:\\Users\\adiljt\\Desktop\\dwds\\C--Project\\CompanyProject.Core\\CompanyProject.Core.csproj": {
+                "projectPath": "C:\\Users\\adiljt\\Desktop\\dwds\\C--Project\\CompanyProject.Core\\CompanyProject.Core.csproj"
               }
             }
           }
@@ -118,22 +130,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\CompanyProject.Core\\CompanyProject.Core.csproj": {
+    "C:\\Users\\adiljt\\Desktop\\dwds\\C--Project\\CompanyProject.Core\\CompanyProject.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\CompanyProject.Core\\CompanyProject.Core.csproj",
+        "projectUniqueName": "C:\\Users\\adiljt\\Desktop\\dwds\\C--Project\\CompanyProject.Core\\CompanyProject.Core.csproj",
         "projectName": "CompanyProject.Core",
-        "projectPath": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\CompanyProject.Core\\CompanyProject.Core.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\CompanyProject.Core\\obj\\",
+        "projectPath": "C:\\Users\\adiljt\\Desktop\\dwds\\C--Project\\CompanyProject.Core\\CompanyProject.Core.csproj",
+        "packagesPath": "C:\\Users\\adiljt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adiljt\\Desktop\\dwds\\C--Project\\CompanyProject.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\adiljt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -173,22 +191,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\ConsoleProjectUI\\ConsoleProjectUI.csproj": {
+    "C:\\Users\\adiljt\\Desktop\\dwds\\C--Project\\ConsoleProjectUI\\ConsoleProjectUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\ConsoleProjectUI\\ConsoleProjectUI.csproj",
+        "projectUniqueName": "C:\\Users\\adiljt\\Desktop\\dwds\\C--Project\\ConsoleProjectUI\\ConsoleProjectUI.csproj",
         "projectName": "ConsoleProjectUI",
-        "projectPath": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\ConsoleProjectUI\\ConsoleProjectUI.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\ConsoleProjectUI\\obj\\",
+        "projectPath": "C:\\Users\\adiljt\\Desktop\\dwds\\C--Project\\ConsoleProjectUI\\ConsoleProjectUI.csproj",
+        "packagesPath": "C:\\Users\\adiljt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adiljt\\Desktop\\dwds\\C--Project\\ConsoleProjectUI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\adiljt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -201,8 +225,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\Company.Business\\Company.Business.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\Company.Business\\Company.Business.csproj"
+              "C:\\Users\\adiljt\\Desktop\\dwds\\C--Project\\Company.Business\\Company.Business.csproj": {
+                "projectPath": "C:\\Users\\adiljt\\Desktop\\dwds\\C--Project\\Company.Business\\Company.Business.csproj"
               }
             }
           }
@@ -232,7 +256,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
