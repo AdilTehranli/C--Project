@@ -23,7 +23,10 @@ public class EmployeeRepository : IRepository<Employee>
     {
         DBContext.employees.Add(entity);
     }
-
+    public void Delete(Employee entity)
+    {
+        DBContext.employees.Remove(entity);
+    }
     public List<Employee> GetAll()
     {
         return DBContext.employees;
@@ -42,4 +45,5 @@ public class EmployeeRepository : IRepository<Employee>
     {
         return DBContext.employees.FindAll(cp => cp.EmployeeId == id);
     }
+
 }

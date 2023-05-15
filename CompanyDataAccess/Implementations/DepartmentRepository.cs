@@ -23,6 +23,10 @@ public class DepartmentRepository : IRepository<Department>
     {
         DBContext.departments.Add(entity);
     }
+    public void Delete(Department entity)
+    {
+        DBContext.departments.Remove(entity);
+    }
     public List<Department> GetAll()
     {
         return DBContext.departments;
@@ -37,4 +41,5 @@ public class DepartmentRepository : IRepository<Department>
     {
         return DBContext.departments.FindAll(cp => cp.Name == name);
     }
+
 }

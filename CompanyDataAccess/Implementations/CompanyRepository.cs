@@ -24,7 +24,10 @@ public class CompanyRepository : IRepository<Company>
         return DBContext.companies.Find(cp => cp.Name == name);
     }
 
-
+    public void Delete(Company entity)
+    {
+        DBContext.companies.Remove(entity);
+    }
     public List<Company> GetAll()
     {
         return DBContext.companies;
@@ -34,4 +37,5 @@ public class CompanyRepository : IRepository<Company>
     {
         return DBContext.companies.FindAll(cp => cp.Name == name);
     }
+
 }
