@@ -18,15 +18,15 @@ public class DepartmentService:IDepartmentService
         departmentRepository = new DepartmentRepository();
         companyRepository = new CompanyRepository();
     }
-    public void AddEmployee(string v, string v1, Employee employee)
+    public void AddEmployee( Employee employee)
     {
-        if (employee == null)
+        if (employee != null)
         {
             employeeRepository.Add(employee);
         }
         else
         {
-            throw new NotFoundException("There is no such user");
+            throw new Exception("There is no such user");
         }
     }
     public void Create(string departmentName, string name, int employeeLimit)
