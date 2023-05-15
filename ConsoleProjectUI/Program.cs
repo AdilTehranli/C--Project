@@ -1,6 +1,7 @@
 ﻿using Company.Business.Services;
 
 //EmployeeRepository employeeRepository = new EmployeeRepository();
+//<<<<<<< HEAD
 //EmployeeService employeeService = new EmployeeService();
 //DepartmentService /*departmentService*/ = new DepartmentService();
 //departmentService.Create("register", "adil", 3);
@@ -8,6 +9,21 @@
 
 
 //CompanyService companyService = new CompanyService();
+//=======
+//EmployeeService employeeService = new EmployeeService();
+//DepartmentService departmentService = new DepartmentService();
+//CompanyService companyService = new CompanyService();
+//companyService.Create("adil");
+//employeeService.GetAll();
+//foreach (var com in departmentService)
+//{
+//    Console.WriteLine();
+//}
+
+
+
+
+
 //companyService.Create();
 
 //departmentService.Create("mm","Adil",10);

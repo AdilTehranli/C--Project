@@ -4,6 +4,7 @@ using Company.Business.Interfaces;
 using CompanyDataAccess.Contexts;
 using CompanyDataAccess.Implementations;
 using ConsoleProject.Entities;
+using System.Diagnostics;
 
 namespace Company.Business.Services;
 
@@ -17,9 +18,9 @@ public class DepartmentService:IDepartmentService
         departmentRepository = new DepartmentRepository();
         companyRepository = new CompanyRepository();
     }
-    public void Create(string departmentName, string Name, int employeeLimit)
+    public void Create(string departmentName, string name, int employeeLimit)
     {
-        var name = departmentName.Trim();
+        var name1 = departmentName.Trim();
         if (string.IsNullOrWhiteSpace(name))
         {
             throw new NullReferenceException();
@@ -28,10 +29,10 @@ public class DepartmentService:IDepartmentService
         {
             throw new AlreadyExistException(Helper.errors["AlreadyExistException"]);
         }
-        var companyName = companyRepository.GetByName(Name);
+        var companyName = companyRepository.GetByName(name);
         if (companyName == null)
         {
-            throw new NotFoundException($"{Name} - doesn't exist");
+            throw new NotFoundException($"{name} - doesn't exist");
         }
         if (employeeLimit <= 2)
         {
@@ -55,7 +56,7 @@ public class DepartmentService:IDepartmentService
         var count = DBContext.departments.Count(emp => emp.Name == departmentName);
         if (count != 0)
         {
-            throw new IsNotEmptyException("This is department isn't empty");
+            throw new IsNotEmptyException("not found");
         }
     }
     public List<Department> GetAll()
@@ -75,8 +76,7 @@ public class DepartmentService:IDepartmentService
         var department = DBContext.departments.Find(dep => dep.DepartmentId == id);
         if (department != null)
         {
-
-
+            department.EmployeeLimit = employeeLimit;
         }
     }
 }

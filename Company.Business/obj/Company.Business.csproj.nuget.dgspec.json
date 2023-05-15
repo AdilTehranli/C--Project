@@ -30,6 +30,9 @@
             "projectReferences": {
               "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\CompanyDataAccess\\CompanyDataAccess.csproj": {
                 "projectPath": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\CompanyDataAccess\\CompanyDataAccess.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\CompanyProject.Core\\CompanyProject.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\AHSH\\C--Project\\CompanyProject.Core\\CompanyProject.Core.csproj"
               }
             }
           }

@@ -8,5 +8,4 @@ public static class DBContext
     public static List<Department> departments { get; set; } = new();
     public static List<Company> companies { get; set; } = new();
 
-   
 }
